@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# If you're using PostgreSQL
+*.pgdata
+
+# If you're using MySQL
+*.sql
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Media files
+/media/
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Static files
+/static/
+*.css
+*.js
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+blog_env/
+
+# IDE specific
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Local and user-specific settings
+*.local
+*.user
+
+# PyCharm specific
+*.iml

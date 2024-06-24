@@ -1,0 +1,4 @@
+# .dockerignore
+.blog_env
+.git
+.gitignore
